@@ -1,0 +1,131 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\user-1\\Desktop\\nima\\پروژه های آموزشی\\GuestRegister\\GuestRegisterApi\\GuestRegisterApi.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\user-1\\Desktop\\nima\\پروژه های آموزشی\\GuestRegister\\GuestRegisterApi\\GuestRegisterApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\user-1\\Desktop\\nima\\پروژه های آموزشی\\GuestRegister\\GuestRegisterApi\\GuestRegisterApi.csproj",
+        "projectName": "GuestRegisterApi",
+        "projectPath": "C:\\Users\\user-1\\Desktop\\nima\\پروژه های آموزشی\\GuestRegister\\GuestRegisterApi\\GuestRegisterApi.csproj",
+        "packagesPath": "C:\\Users\\user-1\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user-1\\Desktop\\nima\\پروژه های آموزشی\\GuestRegister\\GuestRegisterApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\user-1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\user-1\\Desktop\\nima\\پروژه های آموزشی\\GuestRegister\\GuestRegisterModels\\GuestRegisterModels.csproj": {
+                "projectPath": "C:\\Users\\user-1\\Desktop\\nima\\پروژه های آموزشی\\GuestRegister\\GuestRegisterModels\\GuestRegisterModels.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\user-1\\Desktop\\nima\\پروژه های آموزشی\\GuestRegister\\GuestRegisterModels\\GuestRegisterModels.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\user-1\\Desktop\\nima\\پروژه های آموزشی\\GuestRegister\\GuestRegisterModels\\GuestRegisterModels.csproj",
+        "projectName": "GuestRegisterModels",
+        "projectPath": "C:\\Users\\user-1\\Desktop\\nima\\پروژه های آموزشی\\GuestRegister\\GuestRegisterModels\\GuestRegisterModels.csproj",
+        "packagesPath": "C:\\Users\\user-1\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user-1\\Desktop\\nima\\پروژه های آموزشی\\GuestRegister\\GuestRegisterModels\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\user-1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

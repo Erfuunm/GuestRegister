@@ -1,0 +1,11 @@
+C:\Users\user-1\Desktop\nima\پروژه های آموزشی\GuestRegister\GuestRegisterModels\bin\Debug\net6.0\GuestRegisterModels.deps.json
+C:\Users\user-1\Desktop\nima\پروژه های آموزشی\GuestRegister\GuestRegisterModels\bin\Debug\net6.0\GuestRegisterModels.dll
+C:\Users\user-1\Desktop\nima\پروژه های آموزشی\GuestRegister\GuestRegisterModels\bin\Debug\net6.0\GuestRegisterModels.pdb
+C:\Users\user-1\Desktop\nima\پروژه های آموزشی\GuestRegister\GuestRegisterModels\obj\Debug\net6.0\GuestRegisterModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user-1\Desktop\nima\پروژه های آموزشی\GuestRegister\GuestRegisterModels\obj\Debug\net6.0\GuestRegisterModels.AssemblyInfoInputs.cache
+C:\Users\user-1\Desktop\nima\پروژه های آموزشی\GuestRegister\GuestRegisterModels\obj\Debug\net6.0\GuestRegisterModels.AssemblyInfo.cs
+C:\Users\user-1\Desktop\nima\پروژه های آموزشی\GuestRegister\GuestRegisterModels\obj\Debug\net6.0\GuestRegisterModels.csproj.CoreCompileInputs.cache
+C:\Users\user-1\Desktop\nima\پروژه های آموزشی\GuestRegister\GuestRegisterModels\obj\Debug\net6.0\GuestRegisterModels.dll
+C:\Users\user-1\Desktop\nima\پروژه های آموزشی\GuestRegister\GuestRegisterModels\obj\Debug\net6.0\refint\GuestRegisterModels.dll
+C:\Users\user-1\Desktop\nima\پروژه های آموزشی\GuestRegister\GuestRegisterModels\obj\Debug\net6.0\GuestRegisterModels.pdb
+C:\Users\user-1\Desktop\nima\پروژه های آموزشی\GuestRegister\GuestRegisterModels\obj\Debug\net6.0\ref\GuestRegisterModels.dll

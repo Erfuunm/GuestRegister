@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "dgSpecHash": "+hcdnlQmdt/ztb+2JKDkX8c2z+iV/Pl4Wr6VQo8oFgTXhekTqgD0jOEs184oVsIqxnAWxOaNIvmoy1EW+x32KA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\user-1\\Desktop\\nima\\پروژه های آموزشی\\GuestRegister\\GuestRegister\\GuestRegister.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\user-1\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.16\\microsoft.aspnetcore.authorization.6.0.16.nupkg.sha512",
+    "C:\\Users\\user-1\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.16\\microsoft.aspnetcore.components.6.0.16.nupkg.sha512",
+    "C:\\Users\\user-1\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\6.0.16\\microsoft.aspnetcore.components.analyzers.6.0.16.nupkg.sha512",
+    "C:\\Users\\user-1\\.nuget\\packages\\microsoft.aspnetcore.components.forms\\6.0.16\\microsoft.aspnetcore.components.forms.6.0.16.nupkg.sha512",
+    "C:\\Users\\user-1\\.nuget\\packages\\microsoft.aspnetcore.components.web\\6.0.16\\microsoft.aspnetcore.components.web.6.0.16.nupkg.sha512",
+    "C:\\Users\\user-1\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly\\3.2.0-preview2.20160.5\\microsoft.aspnetcore.components.webassembly.3.2.0-preview2.20160.5.nupkg.sha512",
+    "C:\\Users\\user-1\\.nuget\\packages\\microsoft.aspnetcore.metadata\\6.0.16\\microsoft.aspnetcore.metadata.6.0.16.nupkg.sha512",
+    "C:\\Users\\user-1\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.2\\microsoft.extensions.configuration.3.1.2.nupkg.sha512",
+    "C:\\Users\\user-1\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.2\\microsoft.extensions.configuration.abstractions.3.1.2.nupkg.sha512",
+    "C:\\Users\\user-1\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.1\\microsoft.extensions.dependencyinjection.6.0.1.nupkg.sha512",
+    "C:\\Users\\user-1\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\user-1\\.nuget\\packages\\microsoft.extensions.localization\\6.0.16\\microsoft.extensions.localization.6.0.16.nupkg.sha512",
+    "C:\\Users\\user-1\\.nuget\\packages\\microsoft.extensions.localization.abstractions\\6.0.16\\microsoft.extensions.localization.abstractions.6.0.16.nupkg.sha512",
+    "C:\\Users\\user-1\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.3\\microsoft.extensions.logging.abstractions.6.0.3.nupkg.sha512",
+    "C:\\Users\\user-1\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\user-1\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\user-1\\.nuget\\packages\\microsoft.jsinterop\\6.0.16\\microsoft.jsinterop.6.0.16.nupkg.sha512",
+    "C:\\Users\\user-1\\.nuget\\packages\\microsoft.jsinterop.webassembly\\3.2.0-preview2.20160.5\\microsoft.jsinterop.webassembly.3.2.0-preview2.20160.5.nupkg.sha512",
+    "C:\\Users\\user-1\\.nuget\\packages\\mudblazor\\6.11.0\\mudblazor.6.11.0.nupkg.sha512",
+    "C:\\Users\\user-1\\.nuget\\packages\\system.io.pipelines\\6.0.3\\system.io.pipelines.6.0.3.nupkg.sha512",
+    "C:\\Users\\user-1\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\user-1\\.nuget\\packages\\toolbelt.blazor.httpclientinterceptor\\10.2.0\\toolbelt.blazor.httpclientinterceptor.10.2.0.nupkg.sha512"
+  ],
+  "logs": []
+}

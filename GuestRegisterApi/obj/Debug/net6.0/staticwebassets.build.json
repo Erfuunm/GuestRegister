@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "JYRLNlZGQW+gKMxCaufKy3EYzFLIBXAlsgLaMLnqiC0=",
+  "Source": "GuestRegisterApi",
+  "BasePath": "_content/GuestRegisterApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

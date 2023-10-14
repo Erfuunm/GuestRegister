@@ -1,0 +1,71 @@
+﻿@using GuestRegister.Data
+@using GuestRegisterModels
+@using GuestRegister.Services
+@inject IPersonService _PersonService
+<link rel="stylesheet" href="Register-Page-Mud2/Shared/OriginalPerson.razor.css" />
+
+@foreach(var item in PersonList)
+{
+
+    <div class="container">
+
+        <div class="form__group field">
+            <input @bind-value="@item.ReservCode" type="input" class="form__field" placeholder="Name" required="">
+            <label for="name" class="form__label">شماره رزرو</label>
+        </div>
+
+
+        <div class="form__group field">
+            <input @bind-value="@item.Name" type="input" class="form__field" placeholder="Name" required="">
+            <label for="name" class="form__label"> نام رزرو کننده</label>
+        </div>
+
+
+        <div class="form__group field">
+            <input @bind-value="@item.NatCode" type="input" class="form__field" placeholder="Name" required="">
+            <label for="name" class="form__label"> کدملی</label>
+        </div>
+
+
+        <div class="form__group field">
+            <input @bind-value="@item.CheckinDate" type="input" class="form__field" placeholder="Name" required="">
+            <label for="name" class="form__label">تاریخ ورود</label>
+        </div>
+
+
+        <div class="form__group field">
+            <input @bind-value="@item.CheckOutDate" type="input" class="form__field" placeholder="Name" required="">
+            <label for="name" class="form__label">تاریخ خروج</label>
+        </div>
+        <div class="form__group field">
+            <input @bind-value="@item.companions" type="input" class="form__field" placeholder="Name" required="">
+            <label for="name" class="form__label">تعداد نفرات</label>
+        </div>
+        <div class="form__group field">
+            <input @bind-value="@item.RoomNumber" type="input" class="form__field" placeholder="Name" required="">
+            <label for="name" class="form__label">تعداد اتاق</label>
+        </div>
+        <div class="form__group field">
+            <input @bind-value="@item.Price" type="input" class="form__field" placeholder="Name" required="">
+            <label for="name" class="form__label">مبلغ</label>
+        </div>
+
+    </div>
+
+}
+
+
+
+@code {
+    RegisterModel registertionModel = new RegisterModel();
+    private List<Person> PersonList = new List<Person>();
+    protected override async Task OnInitializedAsync()
+    {
+        await getperson();
+    }
+    private async Task getperson()
+    {
+        PersonList = await _PersonService.getPerson();
+    }
+
+}

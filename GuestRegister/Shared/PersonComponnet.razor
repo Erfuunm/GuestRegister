@@ -1,0 +1,142 @@
+﻿@using GuestRegister.Pages
+@using Microsoft.AspNetCore.Components.Web
+@using System.Globalization;
+@using MudBlazor;
+<link rel="stylesheet" href="Register-Page-Mud2/Shared/RoomComponnet.razor.css" />
+
+
+<div class="@GetDivClass()">
+    <div class="card-body">
+        <div class="Detail">
+
+            <img class="imggg" src="/images/Double-room.jpg" alt="Image description">
+            <br /><br />
+            <div class="Detail-text">
+                <h3 class="h3">اتاق دبل اتریوم</h3>
+
+                <p>ظرفیت اتاق 2 نفر+2 نفر</p>
+                <br /><br />
+                <div tabindex="0" class="plusButton">
+                    <svg class="plusIcon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" @onclick="AddRow">
+                        <g mask="url(#mask0_21_345)">
+                            <path d="M13.75 23.75V16.25H6.25V13.75H13.75V6.25H16.25V13.75H23.75V16.25H16.25V23.75H13.75Z"></path>
+                        </g>
+                    </svg>
+                </div>
+            </div>
+
+
+
+        </div>
+
+
+        <table class="table">
+
+            <tbody style="direction:rtl">
+                @foreach (var row in rows)
+                {
+                    
+                    <tr>
+                        <td>
+                            <div class="textInputWrapper">
+                                <input placeholder="نام" type="text" class="textInput">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="textInputWrapper">
+                                <input placeholder="نام خانوادگی" type="text" class="textInput">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="textInputWrapper">
+                                <input placeholder="کدملی" type="text" class="textInput">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="textInputWrapper">
+                                <input placeholder="تاریخ تولد" type="text" class="textInput">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="textInputWrapper" >
+
+                                <MudSelect Style="margin-top:-18px;" @bind-Value="enumValue" OpenIcon="@Icons.Material.Filled.People" AdornmentColor="Color.Secondary" Dense="true">
+                                    @foreach (Drink item in Enum.GetValues(typeof(Drink)))
+                                    {
+                                        <MudSelectItem Value="@item" Class="textInput">@item</MudSelectItem>
+                                    }
+                                </MudSelect>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="textInputWrapper">
+                                <MudSelect Style="margin-top:-18px;" @bind-Value="enumValue2" OpenIcon="@Icons.Material.Filled.FamilyRestroom" AdornmentColor="Color.Secondary" Dense="true">
+                                    @foreach (Drink2 item in Enum.GetValues(typeof(Drink2)))
+                                    {
+                                        <MudSelectItem Value="@item" Class="textInput">@item</MudSelectItem>
+                                    }
+                                </MudSelect>
+
+                            </div>
+                           
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+@code {
+    private string stringValue { get; set; }
+    private Drink enumValue { get; set; }
+    public enum Drink { پسر, دختر }
+    private CultureInfo cultureValue { get; set; }
+    private Func<CultureInfo, string> convertFunc = ci => ci?.DisplayName;
+
+    
+    private Drink2 enumValue2 { get; set; }
+    public enum Drink2 { همسر, فرزند, همکار }
+
+    private List<Row> rows = new List<Row>
+    {
+      new Row { Column1 = "New Row", Column2 = "New Row" },
+      new Row { Column1 = "New Row", Column2 = "New Row" }
+    };
+    private bool Card_Size_Changer = true;
+
+    private void AddRow()
+    {
+        if (rows.Count <= 3)
+        {
+            rows.Add(new Row { Column1 = "New Row", Column2 = "New Row" });
+        }
+
+
+        if (rows.Count >= 4)
+        {
+            Card_Size_Changer = false;
+        }
+    }
+
+    public class Row
+    {
+        public string Column1 { get; set; }
+        public string Column2 { get; set; }
+    }
+
+
+
+    private string GetDivClass()
+    {
+
+        if (Card_Size_Changer)
+        {
+            return "card";
+        }
+        else
+        {
+            return "card-bigger";
+        }
+    }
+}

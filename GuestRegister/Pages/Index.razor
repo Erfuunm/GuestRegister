@@ -1,0 +1,73 @@
+﻿
+
+
+
+@page "/"
+
+@using System.Text.RegularExpressions
+@using System.ComponentModel.DataAnnotations
+@using GuestRegister.Data
+@using GuestRegisterModels
+@using GuestRegister.Services
+@inject IPersonService _PersonService
+
+<link rel="stylesheet" href="Register-Page-Mud2/Pages/Registertion.razor.css" />
+
+
+
+<div class="Background">
+
+    @*[First Data about the first person it wiil help Him to find out if this page belongs to him or not]*@
+
+    <OriginalPerson />
+
+
+    <br /><br /><br /><br /><br /><br /><br />
+
+
+    @foreach(var item in PersonList)
+    {
+        int n = int.Parse(item.RoomNumber);
+        @for(int i =0; i<n; i++){
+            <PersonComponnet />
+
+            <br />
+
+            <br />
+
+            <br />
+
+            <br />
+
+            <br />
+
+        }
+      
+
+    }
+
+
+    <div class="btn-controll">
+        <button>
+            <span>ثبت اطلاعات</span>
+        </button>
+    </div>
+    
+
+
+    <br /><br />
+
+
+</div>
+
+@code{
+    private List<Person> PersonList = new List<Person>();
+    protected override async Task OnInitializedAsync()
+    {
+        await getperson();
+    }
+    private async Task getperson()
+    {
+        PersonList = await _PersonService.getPerson();
+    }
+}
